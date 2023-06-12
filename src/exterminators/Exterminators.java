@@ -20,7 +20,7 @@ public class Exterminators {
         System.out.print("Hellos");
         int a = 3;
         int b = 2;
-        
+        edit();
         System.out.println("Matriks AxB");
         System.out.println("A: "+a);
         System.out.println("B: "+b);
