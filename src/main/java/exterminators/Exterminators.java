@@ -18,7 +18,7 @@ public class Exterminators {
         // TODO code application logic here
         //Scanner input = new Scanner(System.in);
         System.out.print("Hellos");
-        int a = 3;
+        String a = 3;
         int b = 2;
         edit();
         System.out.println("Matriks AxB");
