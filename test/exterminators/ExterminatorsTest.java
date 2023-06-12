@@ -20,13 +20,30 @@ public class ExterminatorsTest {
      * Test of main method, of class Exterminators.
      */
     @Test
-    public void testMain() {
-//        System.out.println("main");
-        String[] args = null;
-//        Exterminators.main(args);
-        Exterminators.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-//        fail("The test case is a prototype.");
+    public void testMatrixTranspose() {
+        int a = 3;
+        int b = 2;
+        
+        int[][] mat = {
+            {1, 2},
+            {3, 4},
+            {5, 6}
+        };
+        
+        int[][] expectedTransposedMatrix = {
+            {1, 3, 5},
+            {2, 4, 6}
+        };
+        
+        int[][] trans = new int[b][a];
+        
+        for (int i = 0; i < 2; i++) {
+            for (int k = 0; k < 3; k++) {
+                trans[i][k] = mat[k][i];
+            }
+        }
+        
+        assertArrayEquals(expectedTransposedMatrix, trans);
     }
     
 }
