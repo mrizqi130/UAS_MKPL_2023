@@ -1,24 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package exterminators;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author ASUS
- */
 public class ExterminatorsTest {
     
-    public ExterminatorsTest() {
-    }
-    /**
-     * Test of main method, of class Exterminators.
-     */
     @Test
     public void testMatrixTranspose() {
         int a = 3;
@@ -45,5 +31,4 @@ public class ExterminatorsTest {
         
         assertArrayEquals(expectedTransposedMatrix, trans);
     }
-    
 }
