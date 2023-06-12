@@ -3,7 +3,6 @@
   <groupId>exterminators</groupId>
   <artifactId>exterminators</artifactId>
   <version>0.1.1-SNAPSHOT</version>
-
 <dependencies>
   <dependency>
     <groupId>junit</groupId>
