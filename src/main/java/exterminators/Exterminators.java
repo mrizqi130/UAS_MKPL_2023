@@ -23,7 +23,12 @@ public class Exterminators {
         System.out.println("Matriks AxB");
         System.out.println("A: "+a);
         System.out.println("B: "+b);
-        
+        System.out.println("A: "+a);
+        System.out.println("B: "+b);
+        System.out.println("A: "+a);
+        System.out.println("B: "+b);
+        System.out.println("A: "+a);
+        System.out.println("B: "+b);
         System.out.println("Isi matrix");
         int mat[][] = new int [a][b];
         mat[0] = new int[]{1,2};
