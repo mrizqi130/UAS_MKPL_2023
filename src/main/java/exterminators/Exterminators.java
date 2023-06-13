@@ -10,7 +10,6 @@ package exterminators;
  * @author ASUS
  */
 public class Exterminators {
-
     /**
      * @param args the command line arguments
      */
