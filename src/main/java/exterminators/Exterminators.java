@@ -20,7 +20,6 @@ public class Exterminators {
         System.out.print("Hello");
         int a = 3;
         int b = 2;
-        
         System.out.println("Matriks AxB");
         System.out.println("A: "+a);
         System.out.println("B: "+b);
