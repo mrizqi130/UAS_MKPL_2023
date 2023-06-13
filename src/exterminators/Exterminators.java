@@ -35,7 +35,7 @@ public class Exterminators {
         for (i=0;i<3;i++){
             int k;
             for (k=0;k<2;k++){
-                System.out.print(mat[i][k]+" ");
+                
             }
             System.out.println();
         }
